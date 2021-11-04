@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Exeplore Melbourne</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="css/reset.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  
+  <nav class="navbar__menu"> 
+  <div class="logo-container">
+      <a href="page-header"></a><img class="logo" src="images/sunset (2).svg" alt="Logo"></a>
+    </div>
+      <ul class=menu_items></ul>
+  </nav>
+ 
+    <header id="page-header">
+    <div class="page-header-container">
+      
+      <div class="header-text">
+        <h1 id= explore-mel-text><br>Explore Melbourne<br></h1>
+        <span class="square"></span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac porta enim. Maecenas 
+          id pellentesque dui. Ut lobortis blandit pretium.</p>
+      
+      <button class="common-btn">Book a trip</button> 
+        </div>
+        
+      </div>
+  </header>
+
+  <main>
+    <!-- <header class="main__hero"></header> -->
+    
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Section 1" class="your-active-class">
+     
+      <div class="landing__container"></div>
+      <div class="section1-left-col">
+        <img src="images/The Twelves Apostles.jpg" alt="view">
+      </div>
+         
+        <div class="section1-right-col">
+          <div class="section1-text">
+           <h1></h1>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Nam vitae sollicitudin mauris. Quisque blandit molestie 
+             arcu, et imperdiet nulla suscipit sed. Proin at 
+             vestibulum elit. Curabitur malesuada neque ut tellus 
+             rhoncus, nec congue tellus iaculis. Suspendisse arcu 
+             nisl, accumsan a vehicula vel, 
+            gravida sed ex. Pellentesque nisl dolor, finibus nec.
+            </p>
+              <h2>
+                Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. Mauris accumsan.
+              </h2>
+              <h3>
+                ----Lorem ipsum dolor----
+              </h3>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section id="section2" data-nav="Section 2">
+      <h2 id="section2-h2">A gateway to Victoria’s remarkable regions</h2>
+        <div class="section2-container">
+        
+          <div class="section2-col">
+            <img src="images/tiraya-adam-FNRIC8aaF4o-unsplash.jpg" alt="GratOceanRoad">
+              <h4>
+                Lorem ipsum dolor.
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. Maecenas fermentum.
+              </p>
+          </div>
+          <div class="section2-col">
+              <img src="images/feature2.jpg" alt="">
+                <h4>
+                  Lorem ipsum dolor.
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit. Maecenas fermentum.
+                </p>
+          </div>
+          <div class="section2-col">
+            <img src="images/feature3.jpg" alt="">
+              <h4>
+                Lorem ipsum dolor.
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Maecenas fermentum.
+              </p>
+          </div>
+            
+        </div>
+
+        <!-- <h1>I am section2</h1>
+        <h2>About US</h2>
+        <p>We are the company that can become your best guide in Melbourne.We have been working for 10 years providing the best service, 
+          showing you all the treasure of Melbourne.  </p> -->
+      <!-- </div> -->
+    </section>
+
+    <section id="section3" data-nav="Section 3">
+      <div class="section3-container">
+        <div class="section3-left-col">
+          <div class="section3-left-col-text">
+
+            <h2 id = "section3-h2-text">Choose a trip</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Nisi vitae suscipit tellus mauris a. 
+                Interdum consectetur libero id faucibus nisl tincidunt eget nullam non. Eu consequat ac felis donec et odio pellentesque diam. 
+                Volutpat odio facilisis mauris sit amet massa vitae tortor condimentum.
+              </p>
+              <button class="common-btn">
+                See More
+              </button> 
+          </div>
+          
+        </div>
+        <div class="section3-right-col">
+            <img src="images/david-clode-ko-v55B2xOw-unsplash.jpg" alt="">
+        </div>
+       
+        
+      </div>
+      <!-- <hr class="hr-section3"> -->
+    </section>
+    <section id="section4" data-nav="Section 4">
+
+      
+      <div class="section4-container">
+        <div class="section4-left-col">
+          <img src="images/britt-gaiser-6acAfzG7dfw-unsplash.jpg" alt="Contact us!">
+          
+        </div>
+        
+        <div class="section4-right-col">
+          <div>
+            <h2 id ="section4-h2-text">Having Questions?</h2>
+            <p>Let us know!</p>
+          </div>
+           
+        <div>
+          <div class="Form-container">
+            <form action="/">
+              <div class="row">
+                <div class="col-25">
+                  <!-- <label for="fname">Name</label> -->
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <!-- <label for="lname">Contact</label> -->
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname"  placeholder="Contact Number">
+                </div>
+          
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <!-- <label for="Messahe">Message</label> -->
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+        </div>
+          
+         
+         
+        
+       
+          
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="page-footer-container">
+    <div class="Footer-socialMedias">
+      <img src="images/SocialMediaFacebook.png" alt="">
+      <img src="images/SocialMediaTwitter.png" alt="">
+      <img src="images/SocialMediaYoutube.png" alt="">
+      <img src="images/SociaMediaInstagram.png" alt="">
+      <img src="images/SocialMediaPintersest.png" alt="">
+    </div>
+  <div class="footer-text">
+    <p>@copyRight</p>
+  </div>
+  <div class="footer-button">
+    <button id=backbtn> 
+      <span id=button>Back to top</span> 
+    </button>
+    </div>
+  </div>
+    
+  </footer>
+  
+</body>
+<script src="js/app.js"></script> 
+</html>
