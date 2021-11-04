@@ -1,0 +1,148 @@
+body {
+    margin: 0 auto;
+    background-color: #cdbd9d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.zone {
+    text-align: center;
+    color:grey;
+    font-size:2em;
+    border-radius:4px;
+    /*border:1px solid #bbb;*/
+    transition: all 0.3s linear;
+}
+
+
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 0.7em;
+    background-color: none;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+
+    .box{
+        font-size: 0.5em;
+
+    }
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+.fixedPosition{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.blogButton {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    
+  }
+  
+
+
+
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+.container {
+    /*show heigh: auto*/
+    height: 30vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    
+    }
+
+.coverImg{
+    width: 10em;
+}
+
+
+    
+
+
+
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.box > img {
+    width: 100%;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    font-size: 50%;
+    text-align: center;
+    transform: all 3s;
+    cursor: pointer;
+    
+}
+
+
+.box:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+ footer { 
+     text-align: center; 
+     padding: 3px; 
+     background-color: #cdbd9d;
+     
+    }
+    
+    footer p { 
+        font-size: 1rem; 
+    }
+
