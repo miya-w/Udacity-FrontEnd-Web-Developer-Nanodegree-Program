@@ -11,12 +11,18 @@
 ## About the projects ##
 ---
 #### P1  Personal Web Blog ####
+
+https://miya-w.github.io/Udacity-FrontEnd-Web-Developer-Nanodegree-Program/project1-personalBlog/
+
 - Styled Blog Website
 - CSS & Website Layout
 > Create a multi-page blog website, using best practices for content and page styling with HTML and CSS. You’ll practice using     
 > responsive layouts, Flexbox, and CSS Grid to create the structure and design for your own blog
 
 #### P2  Landing Page ####
+
+https://miya-w.github.io/Udacity-FrontEnd-Web-Developer-Nanodegree-Program/project2-LandingPage/
+
 - Dynamic Landing Page for Marketing Content
 - JavaScript and the DOM
 > you will be building a multi-section landing page. Often times, you won’t know how much content will be added to a page  through  
@@ -25,6 +31,9 @@
 >   dynamic user experience.
 
 #### P3  Weather Journal app
+
+[project3-WeatherJournal](https://github.com/miya-w/Udacity-FrontEnd-Web-Developer-Nanodegree-Program/tree/main/project3-WeatherJournal)
+
 - Weather Journal
 - Web APIs and Asynchronous Applications
 > Apply your new skills to combine data from the OpenWeatherMap API and client side (browser) HTML forms to create a web app that records a weather journal for users. This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI for a Weather Journal App.
